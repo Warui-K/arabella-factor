@@ -4366,6 +4366,7 @@ button.bg-danger:focus {
 
 .bg-light {
   background-color: #f8f9fa !important; }
+ 
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
@@ -6870,13 +6871,15 @@ section {
 
 .bg-gradient {
   background: linear-gradient(90deg, #98AE4A 0%, #BDDC04  86%); }
+  .bg-gradient-1 {
+    background: linear-gradient(90deg, #98AE4A 0%, #d3f802  86%); }
 
 .bg-gradient-2 {
-  background: linear-gradient(90deg, #ad0e0e 0%, #b64c06 86%); }
+  background: linear-gradient(90deg, #fa0303 0%, #b60606 86%); }
 
 .bg-gradient-3 {
   background: linear-gradient(90deg, #ececd6 0%, #dbdb48 100%);}
-
+  
 .text-white p a {
   color: #fff; }
 
@@ -7977,7 +7980,7 @@ a.card.hover-effect {
   height: 3rem; }
   .icon.icon-lg-r {
     width: auto;
-    height: 5.5rem; 
+    height: 6.5rem; 
   }
   .icon.icon-lg {
     height: 4.5rem; }
